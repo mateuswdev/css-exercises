@@ -44,7 +44,10 @@ ul {
 
 
 .content {
+  display: flex;
   align-self: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header {
@@ -56,15 +59,10 @@ ul {
   background-color: #eeeeee;
   display: flex;
   justify-content: space-between;
-  align-self: flex-en;
 }
 
 .right-links,
 .left-links {
   display: flex;
   gap:15px;
-}
-
-.buttons{
-  align-content: center;
 }
